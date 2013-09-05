@@ -1,0 +1,38 @@
+{
+  "name": "seneca-localdata",
+  "version": "0.1.1",
+  "description": "Injects local data actions into a Seneca plugin",
+  "main": "localdata.js",
+  "scripts": {
+    "test": "node localdata.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rjrodger/seneca-localdata.git"
+  },
+  "keywords": [
+    "seneca",
+    "local",
+    "data",
+    "plugin"
+  ],
+  "author": "Richard Rodger (http://richardrodger.com)",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.5.1",
+    "async": "~0.2.9",
+    "level": "~0.15.0",
+    "nid": "~0.3.0",
+    "seneca-level-store": "~0.1.2"
+  },
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "seneca": "~0.5.11",
+    "gex": "~0.1.1"
+  },
+  "files": [
+    "README.md",
+    "LICENSE.txt",
+    "localdata.js"
+  ]
+}
